@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="initial-scale=1.0, user-scalable=yes">
-  <meta name="theme-color" content="#1976d2">
+  <meta name="theme-color" content="#E91E63">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <title>Taiwan MRT Stations</title>
@@ -711,7 +711,7 @@ function updateSheetSummary() {
 
 function toggleLang() {
   isZh = !isZh;
-  localStorage.setItem('ubike-lang', isZh ? 'zh' : 'en');
+  localStorage.setItem('mrt-lang', isZh ? 'zh' : 'en');
   updateUI();
   updateSheetSummary();
 }
@@ -1052,7 +1052,7 @@ async function centerToUserLocation() {
 async function initialize() {
   console.log('[MRT] Initializing MRT map...');
 
-  const savedLang = localStorage.getItem('ubike-lang');
+  const savedLang = localStorage.getItem('mrt-lang');
   if (savedLang) {
     isZh = savedLang === 'zh';
   }

@@ -51,14 +51,7 @@ public class MainActivity extends Activity {
                 String url = request.getUrl().toString();
                 if (url.startsWith("http://") || url.startsWith("https://")) {
                     if (!url.contains("tile.openstreetmap.org") &&
-                        !url.contains("unpkg.com") &&
-                        !url.contains("apis.youbike.com") &&
-                        !url.contains("tdx.transportdata.tw") &&
-                        !url.contains("earthquake.usgs.gov") &&
-                        !url.contains("api.open-meteo.com") &&
-                        !url.contains("overpass-api.de") &&
-                        !url.contains("openapi.twse.com") &&
-                        !url.contains("owen-ouyang.workers.dev")) {
+                        !url.contains("unpkg.com")) {
                         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
                         startActivity(intent);
                         return true;
