@@ -1,3 +1,5 @@
+English | [繁體中文](README_zh.md)
+
 # Taiwan MRT
 
 Interactive metro station map for all 4 Taiwan MRT systems with real-time location tracking and bilingual support.
