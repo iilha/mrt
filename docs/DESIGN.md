@@ -44,7 +44,6 @@ const STATIONS = [
 
 ### Navigation Header
 - Language toggle button (EN/中文)
-- Links to other transport apps (YouBike, Bus, Rail, THSR)
 - Active state highlighting
 
 ### Filter Controls (Sidebar)
@@ -172,7 +171,7 @@ function renderStationName(station, lang) {
 
 ### Long-term
 - AR navigation inside stations
-- Integration with bus/YouBike for last-mile
+- Integration with bus for last-mile
 - Service disruption alerts with alternative routes
 
 ## TODO
