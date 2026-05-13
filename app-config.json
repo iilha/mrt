@@ -2,7 +2,7 @@
   "appId": "mrt",
   "appName": "umrt  Monitor",
   "apiBase": "https://api.octile.eu.cc",
-  "siteBase": "https://mrt.transport-pwa.com/",
+  "siteBase": "https://iilha.github.io/mrt/",
   "turnstileSiteKey": "0x4AAAAAACuir272GuoMUfnx",
   "features": {
     "events": true
